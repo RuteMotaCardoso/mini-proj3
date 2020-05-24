@@ -1,0 +1,425 @@
+{
+    "info": {
+        "name": "RESTer",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+        {
+            "name": "Web Avançada 4.2",
+            "item": [
+                {
+                    "name": "MembrosComissao",
+                    "item": [
+                        {
+                            "request": {
+                                "url": "127.0.0.1:8080/membrosComissao/5",
+                                "method": "DELETE",
+                                "header": [
+                                    {
+                                        "key": "Accept",
+                                        "value": "application/json"
+                                    },
+                                    {
+                                        "key": "Content-Type",
+                                        "value": "application/json"
+                                    }
+                                ]
+                            },
+                            "id": "rester-17",
+                            "name": "Delete"
+                        },
+                        {
+                            "request": {
+                                "url": "http://127.0.0.1:8080/membrosComissao/1",
+                                "method": "GET",
+                                "header": []
+                            },
+                            "id": "rester-15",
+                            "name": "Get"
+                        },
+                        {
+                            "request": {
+                                "url": "127.0.0.1:8080/membrosComissao",
+                                "method": "POST",
+                                "header": [
+                                    {
+                                        "key": "Accept",
+                                        "value": "application/json"
+                                    },
+                                    {
+                                        "key": "Content-Type",
+                                        "value": "application/json"
+                                    }
+                                ],
+                                "body": {
+                                    "mode": "raw",
+                                    "raw": "{\"nome\":\"Teste insert\",\"instituto\":\"UAB\",\"pais\":\"Portugal\"}"
+                                }
+                            },
+                            "id": "rester-7",
+                            "name": "Insert"
+                        },
+                        {
+                            "request": {
+                                "url": "http://127.0.0.1:8080/membrosComissao",
+                                "method": "GET",
+                                "header": []
+                            },
+                            "id": "rester-14",
+                            "name": "Lista"
+                        },
+                        {
+                            "request": {
+                                "url": "127.0.0.1:8080/membrosComissao/del/5",
+                                "method": "PUT",
+                                "header": [
+                                    {
+                                        "key": "Accept",
+                                        "value": "application/json"
+                                    },
+                                    {
+                                        "key": "Content-Type",
+                                        "value": "application/json"
+                                    }
+                                ]
+                            },
+                            "id": "rester-18",
+                            "name": "SoftDelete"
+                        },
+                        {
+                            "request": {
+                                "url": "127.0.0.1:8080/membrosComissao/5",
+                                "method": "PUT",
+                                "header": [
+                                    {
+                                        "key": "Accept",
+                                        "value": "application/json"
+                                    },
+                                    {
+                                        "key": "Content-Type",
+                                        "value": "application/json"
+                                    }
+                                ],
+                                "body": {
+                                    "mode": "raw",
+                                    "raw": "{\"nome\":\"Teste update\",\"instituto\":\"UAB\",\"pais\":\"Portugal\"}"
+                                }
+                            },
+                            "id": "rester-8",
+                            "name": "Update"
+                        }
+                    ]
+                },
+                {
+                    "name": "Tarefas",
+                    "item": [
+                        {
+                            "request": {
+                                "url": "127.0.0.1:8080/tarefas/6",
+                                "method": "DELETE",
+                                "header": [
+                                    {
+                                        "key": "Accept",
+                                        "value": "application/json"
+                                    },
+                                    {
+                                        "key": "Content-Type",
+                                        "value": "application/json"
+                                    }
+                                ]
+                            },
+                            "id": "rester-24",
+                            "name": "Delete"
+                        },
+                        {
+                            "request": {
+                                "url": "http://127.0.0.1:8080/tarefas/1",
+                                "method": "GET",
+                                "header": []
+                            },
+                            "id": "rester-20",
+                            "name": "Get"
+                        },
+                        {
+                            "request": {
+                                "url": "127.0.0.1:8080/tarefas",
+                                "method": "POST",
+                                "header": [
+                                    {
+                                        "key": "Accept",
+                                        "value": "application/json"
+                                    },
+                                    {
+                                        "key": "Content-Type",
+                                        "value": "application/json"
+                                    }
+                                ],
+                                "body": {
+                                    "mode": "raw",
+                                    "raw": "{\"nome\":\"Teste insert\",\"data\":\"2020-05-20\",\"duracao\":\"1 hora\",\"voluntario\":\"Bud Spencer\",\"tipo\":\"Cafetaria\"}"
+                                }
+                            },
+                            "id": "rester-21",
+                            "name": "Insert"
+                        },
+                        {
+                            "request": {
+                                "url": "http://127.0.0.1:8080/tarefas",
+                                "method": "GET",
+                                "header": []
+                            },
+                            "id": "rester-19",
+                            "name": "Lista"
+                        },
+                        {
+                            "request": {
+                                "url": "127.0.0.1:8080/tarefas/del/6",
+                                "method": "PUT",
+                                "header": [
+                                    {
+                                        "key": "Accept",
+                                        "value": "application/json"
+                                    },
+                                    {
+                                        "key": "Content-Type",
+                                        "value": "application/json"
+                                    }
+                                ]
+                            },
+                            "id": "rester-23",
+                            "name": "SoftDelete"
+                        },
+                        {
+                            "request": {
+                                "url": "127.0.0.1:8080/tarefas/6",
+                                "method": "PUT",
+                                "header": [
+                                    {
+                                        "key": "Accept",
+                                        "value": "application/json"
+                                    },
+                                    {
+                                        "key": "Content-Type",
+                                        "value": "application/json"
+                                    }
+                                ],
+                                "body": {
+                                    "mode": "raw",
+                                    "raw": "{\"nome\":\"Teste update\",\"data\":\"2020-05-21\",\"duracao\":\"1 hora\",\"voluntario\":\"Bud Spencer\",\"tipo\":\"Cafetaria\"}"
+                                }
+                            },
+                            "id": "rester-22",
+                            "name": "Update"
+                        }
+                    ]
+                },
+                {
+                    "name": "TiposTarefas",
+                    "item": [
+                        {
+                            "request": {
+                                "url": "127.0.0.1:8080/tiposTarefa/7",
+                                "method": "DELETE",
+                                "header": [
+                                    {
+                                        "key": "Accept",
+                                        "value": "application/json"
+                                    },
+                                    {
+                                        "key": "Content-Type",
+                                        "value": "application/json"
+                                    }
+                                ]
+                            },
+                            "id": "rester-30",
+                            "name": "Delete"
+                        },
+                        {
+                            "request": {
+                                "url": "http://127.0.0.1:8080/tiposTarefa/1",
+                                "method": "GET",
+                                "header": []
+                            },
+                            "id": "rester-26",
+                            "name": "Get"
+                        },
+                        {
+                            "request": {
+                                "url": "127.0.0.1:8080/tiposTarefa",
+                                "method": "POST",
+                                "header": [
+                                    {
+                                        "key": "Accept",
+                                        "value": "application/json"
+                                    },
+                                    {
+                                        "key": "Content-Type",
+                                        "value": "application/json"
+                                    }
+                                ],
+                                "body": {
+                                    "mode": "raw",
+                                    "raw": "{\"tipo\":\"Teste insert\",\"cor\":\"blue\"}"
+                                }
+                            },
+                            "id": "rester-27",
+                            "name": "Insert"
+                        },
+                        {
+                            "request": {
+                                "url": "http://127.0.0.1:8080/tiposTarefa",
+                                "method": "GET",
+                                "header": []
+                            },
+                            "id": "rester-25",
+                            "name": "Lista"
+                        },
+                        {
+                            "request": {
+                                "url": "127.0.0.1:8080/tiposTarefa/del/7",
+                                "method": "PUT",
+                                "header": [
+                                    {
+                                        "key": "Accept",
+                                        "value": "application/json"
+                                    },
+                                    {
+                                        "key": "Content-Type",
+                                        "value": "application/json"
+                                    }
+                                ]
+                            },
+                            "id": "rester-29",
+                            "name": "SoftDelete"
+                        },
+                        {
+                            "request": {
+                                "url": "127.0.0.1:8080/tiposTarefa/7",
+                                "method": "PUT",
+                                "header": [
+                                    {
+                                        "key": "Accept",
+                                        "value": "application/json"
+                                    },
+                                    {
+                                        "key": "Content-Type",
+                                        "value": "application/json"
+                                    }
+                                ],
+                                "body": {
+                                    "mode": "raw",
+                                    "raw": "{\"tipo\":\"Teste update\",\"cor\":\"blue\"}"
+                                }
+                            },
+                            "id": "rester-28",
+                            "name": "Update"
+                        }
+                    ]
+                },
+                {
+                    "name": "Voluntarios",
+                    "item": [
+                        {
+                            "request": {
+                                "url": "127.0.0.1:8080/voluntarios/11",
+                                "method": "DELETE",
+                                "header": [
+                                    {
+                                        "key": "Accept",
+                                        "value": "application/json"
+                                    },
+                                    {
+                                        "key": "Content-Type",
+                                        "value": "application/json"
+                                    }
+                                ]
+                            },
+                            "id": "rester-9",
+                            "name": "Delete"
+                        },
+                        {
+                            "request": {
+                                "url": "http://127.0.0.1:8080/voluntarios/1",
+                                "method": "GET",
+                                "header": []
+                            },
+                            "id": "rester-16",
+                            "name": "Get"
+                        },
+                        {
+                            "request": {
+                                "url": "127.0.0.1:8080/voluntarios",
+                                "method": "POST",
+                                "header": [
+                                    {
+                                        "key": "Accept",
+                                        "value": "application/json"
+                                    },
+                                    {
+                                        "key": "Content-Type",
+                                        "value": "application/json"
+                                    }
+                                ],
+                                "body": {
+                                    "mode": "raw",
+                                    "raw": "{\"nome\":\"Teste insert\",\"email\":\"jose.silva@uab.pt\",\"cargo\":\"Estudante\",\"habilitacao\":\"Licenciatura\",\"lingua\":\"Inglês\",\"area\":\"Apoio aos Oradores e Membros da Comissão\"}"
+                                }
+                            },
+                            "id": "rester-11",
+                            "name": "Insert"
+                        },
+                        {
+                            "request": {
+                                "url": "http://127.0.0.1:8080/voluntarios",
+                                "method": "GET",
+                                "header": []
+                            },
+                            "id": "rester-13",
+                            "name": "Lista"
+                        },
+                        {
+                            "request": {
+                                "url": "127.0.0.1:8080/voluntarios/del/11",
+                                "method": "PUT",
+                                "header": [
+                                    {
+                                        "key": "Accept",
+                                        "value": "application/json"
+                                    },
+                                    {
+                                        "key": "Content-Type",
+                                        "value": "application/json"
+                                    }
+                                ]
+                            },
+                            "id": "rester-10",
+                            "name": "SoftDelete"
+                        },
+                        {
+                            "request": {
+                                "url": "127.0.0.1:8080/voluntarios/11",
+                                "method": "PUT",
+                                "header": [
+                                    {
+                                        "key": "Accept",
+                                        "value": "application/json"
+                                    },
+                                    {
+                                        "key": "Content-Type",
+                                        "value": "application/json"
+                                    }
+                                ],
+                                "body": {
+                                    "mode": "raw",
+                                    "raw": "{\"nome\":\"Teste update\",\"email\":\"jose.silva@uab.pt\",\"cargo\":\"Estudante\",\"habilitacao\":\"Licenciatura\",\"lingua\":\"Inglês\",\"area\":\"Apoio aos Oradores e Membros da Comissão\"}"
+                                }
+                            },
+                            "id": "rester-12",
+                            "name": "Update"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,40 @@
+{
+  "rows": [
+    {
+      "idTipoTarefa": 6,
+      "tipo": "Apoio aos Oradores e Membros da Comissão",
+      "cor": "#7fff00",
+      "active": 1
+    },
+    {
+      "idTipoTarefa": 5,
+      "tipo": "Apoio nos Corredores",
+      "cor": "#e9967a",
+      "active": 1
+    },
+    {
+      "idTipoTarefa": 4,
+      "tipo": "Apoio nas Salas",
+      "cor": "#daa520",
+      "active": 1
+    },
+    {
+      "idTipoTarefa": 3,
+      "tipo": "Cafetaria",
+      "cor": "#6495ed",
+      "active": 1
+    },
+    {
+      "idTipoTarefa": 2,
+      "tipo": "Guarda roupa",
+      "cor": "#7fffd4",
+      "active": 1
+    },
+    {
+      "idTipoTarefa": 1,
+      "tipo": "Recepção",
+      "cor": "#90EE90",
+      "active": 1
+    }
+  ]
+}
